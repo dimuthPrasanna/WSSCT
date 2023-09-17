@@ -29,3 +29,7 @@ Route::get('/Register/', function () {
 Route::get('/layout/', function () {
     return view('layout');
 });
+
+Route::get('/home/', function () {
+    return view('home');
+});
